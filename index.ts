@@ -59,3 +59,11 @@ class Observable<T> {
 let x: Observable<number>
 let y: Observable<Person>
 let z = new Observable(23)
+
+//Magic from Template Literal types from TS4.1
+type Icon = "😵‍💫" | "🤯" | "🥳" | "😇" | "😎"
+type Size = "xl" | "lg" | "md" | "sm"
+
+type SizedIcon = `${Size}-${Icon}`
+
+const magic: SizedIcon = "md-😎"

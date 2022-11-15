@@ -34,4 +34,5 @@ class Observable {
 let x;
 let y;
 let z = new Observable(23);
+const magic = "md-😎";
 export {};
