@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
+    "allowJs": false,
+    "checkJs": false,
+    "outDir": "build",
     "target": "esnext",
+    "noEmit": true,
     "watch": true,
     "lib": ["dom", "es2017"]
-  }
+  },
+  "include": ["src/**/*"]
 }
